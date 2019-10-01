@@ -29,6 +29,7 @@
         "drupal/page_manager": "^4.0@beta",
         "drupal/panels": "^4.4",
         "drupal/paragraphs": "^1.9",
+        "drupal/pathauto": "^1.4",
         "drush/drush": "^9.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-core-strict": "^8.7.0",
