@@ -1,0 +1,11 @@
+{% if autoplay == true %}
+<div>Autoplay Enabled</div>
+<audio controls preload="metadata" autoplay>
+{% else %}
+<div>Autoplay Disabled</div>
+<audio controls preload="metadata">
+{% endif %}
+{% for source in sources %}
+  <source src="{{ source.src }}" type="{{ source.mimetype }}"/>
+{% endfor %}
+</audio>

@@ -1,0 +1,7 @@
+name: 'HTML5 Audio'
+type: module
+description: 'HTML5 Audio field formatter for Link fields.'
+core: 8.x
+package: 'DrupalEasy'
+dependencies:
+  - link
